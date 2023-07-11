@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+ xsi:noNamespaceSchemaLocation="TestNG.xsd" name="Nopcommerce Regression Suite">
+ <Paramter name="browser" value="chrome"></Paramter > 
+ <Paramter></Paramter>
+  <test name="Regression Test">
+    <classes>
+      <class name="tests.UserLogin"/>
+    </classes>
+  </test> 
+</suite> 
